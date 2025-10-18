@@ -31,8 +31,8 @@ pip install selenium pandas
 | File | Description |
 | :--- | :--- |
 | `main.py` | The main execution script. It initializes the scraper, runs the workflow, and uses Pandas to process and save the final data. |
-| `page_scrapers.py` | Contains the **`Scrapper`** and **`Info_Bot`** classes with all the Selenium navigation and data extraction logic. |
-| `URL_scrapper.py` | Contains supplementary or older scraper logic. |
+| `page_scrapers.py` | Contains the **`Info_Bot`**  |
+| `URL_scrapper.py` | Contains the **`Scrapper`** |
 
 ---
 
