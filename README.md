@@ -24,7 +24,8 @@ You need **Python** installed on your system, and the following libraries:
 Ensure you have a browser installed (like Chrome) as Selenium will control it.
 ```bash
 pip install selenium pandas
-(The script will generate an amazon_products.csv file in the project folder.)
+(The script generates an amazon_products.csv file in the project folder. An example of the structured data output
+ is available in the example_output.csv file in this repository, shown in part below:)
 
 ### Project Structure
 
@@ -48,6 +49,7 @@ The scraper structures the collected information into an `amazon_products.csv` f
 | **Xiran 6 Fridge Storage Boxes Fridge Organize...** | B0BQQ2ZSQX | 319 | Xiran | 4.2 | 3,892 ratings | https://www.amazon.in/Xiran-Fridge-Organizer... |
 
 *Note: The product URLs have been truncated here for readability.*
+* **[Download Full Sample Data (CSV)](./example_output.csv)**
 
 ## ⚠️ Important Note (Stability)
 
